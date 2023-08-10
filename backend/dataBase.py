@@ -1,6 +1,6 @@
 import mysql.connector
 
-cnx = mysql.connector.connect(user='root', host = 'localhost',database='restaurant',password='Gnan@262002',port=3308)
+cnx = mysql.connector.connect(user='root', host = 'localhost',database='restaurant',password='YOUR_PASSWORD',port=3306)
 
 def get_order_status(order_id):
     cursor = cnx.cursor()
