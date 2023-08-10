@@ -29,7 +29,7 @@ Note:
 # Database setup
    - I used mysql database
 1) create a database names restaurant
-2) create a table food_items(item_id,name,price) [ execute create table food_items(item_id int(11) primary key,name varchar(255) not null,price decimal(10,2) not null)]
-3) create a table order_tracking(order_id,status) [execute create table order_tracking(order_id int(11) primary key,status varchar(255))]
-4) create a table orders(user_id,order_id,item_id,quantity,price) [execute create table orders(user_id varchar(30) not null,order_id int(11) not null,item_id int(11) not null,quantity int(11) not null,price decimal(10,2) not null, primary key(order_id,item_id))]
-5) create a table userInfo(username,uid) [execute create table userInfo(username varchar(30) not null,uid varchar(30) not null)]
+2) create a table food_items(item_id,name,price)
+3) create a table order_tracking(order_id,status)
+4) create a table orders(user_id,order_id,item_id,quantity,price)
+5) create a table userInfo(username,uid)
