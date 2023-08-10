@@ -1,5 +1,13 @@
 # FoodOrderingWebSiteWithChatBot
 
+# Technologies Used:
+- python
+     - FastAPI for server
+     - mysql [with python-mysql-connector]
+- ReactJS
+- Firebase
+- Google's dialogueflow
+
 create a .env file in frontend folder
 
 # Things in .env file
